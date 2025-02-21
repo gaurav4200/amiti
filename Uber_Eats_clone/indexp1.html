@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats Clone</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="uber_css.css">
+    
+        
+</head>
+<body>
+    <div id="overlay" class="overlay"></div>
+
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="nav-left">
+                <button class="menu-btn" onclick="toggleSidebar()" id="uber_logo_lines"><i class="fas fa-bars"></i></button>
+
+    <!-- Sidebar (Offcanvas) -->
+    <div id="sidebar" class="sidebar">
+        <span class="close-btn" onclick="toggleSidebar()">×</span>
+        
+        <div class="sidebar-content">
+            <a href="signup.html" class="tog_sign">Sign up</a>
+            <a href="signup.html" class="tog_log">Log in</a>
+            <a href="#">Create a business account</a>
+            <a href="#">Add your restaurant</a>
+            <a href="#">Sign up to deliver</a>
+            
+            <!-- <h3>Uber Eats</h3> -->
+             <div class="sidebar_bottom">
+            <img class="side_img" src="img/uber_eats.svg" alt="Uber Eats">
+            <p>There's more to love in the app.</p>
+            
+            
+        </div>
+        <div class="sidebar_icons">
+                <button><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">iPhone</button>
+                <button><img src="img/android.png" alt="Android">Android</button>
+            </div>
+            <!-- <p class="footer-text">&copy; 2025 Uber Eats India</p> -->
+        </div>
+    
+    </div>
+                <h2>Uber Eats</h2>
+            </div>
+            <div class="nav-right">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign up</button>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Order delivery near you</h1>
+            <div class="search-box">
+                <div class="div1">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Enter address"></div>
+                <div class="div2">
+                <select>
+                    <option class="dropdown_opt">Deliver now</option>
+                    <option class="dropdown_opt">Schedule for later</option>
+                </select></div>
+               <div class="div3"> <button class="search-btn">Search</button></div>
+            </div>
+            <p class="signin-text"><a href="signup.html">Sign In</a></p>
+        </div>
+    </section>
+
+   <script src="uberjs1.js"></script>
+
+    <!-- Business & Delivery Section -->
+    <section class="business-section">
+        <div class="business-box">
+            <img src="img/uber_d1.webp" alt="Feed your employees">
+            <h2>Feed your employees</h2>
+            <a href="#">Create a business account</a>
+        </div>
+        <div class="business-box">
+            <img src="img/uber_d2.webp" alt="Your restaurant, delivered">
+            <h2>Your restaurant, delivered</h2>
+            <a href="#">Add your restaurant</a>
+        </div>
+        <div class="business-box">
+            <img src="img/uber_d3.webp" alt="Deliver with Uber Eats">
+            <h2>Deliver with Uber Eats</h2>
+            <a href="#">Sign up to deliver</a>
+        </div>
+    </section>
+    
+    <!-- Countries Section -->
+    <div class="container">
+        <h2 id="countries_head">Countries with Uber Eats</h2>
+        <div class="countries">
+            <div class="country">Australia</div>
+            <div class="country">France</div>
+            <div class="country">Mexico</div>
+            <div class="country">Belgium</div>
+            <div class="country">Germany</div>
+            <div class="country">Netherlands</div>
+            <div class="country">Canada</div>
+            <div class="country">Guatemala</div>
+            <div class="country">New Zealand</div>
+            <div class="country">Chile</div>
+            <div class="country">Ireland</div>
+            <div class="country">Panama</div>
+            <div class="country">Costa Rica</div>
+            <div class="country">Italy</div>
+            <div class="country">Poland</div>
+            <div class="country">Dominican Republic</div>
+            <div class="country">Japan</div>
+            <div class="country">Portugal</div>
+            <div class="country">Kenya</div>
+            <div class="country">South Africa</div>
+            <div class="country">El Salvador</div>
+            <div class="country">Luxembourg</div>
+            <div class="country">Spain</div>
+            <div class="country">Sri Lanka</div>
+            <div class="country">Sweden</div>
+            <div class="country">Switzerland</div>
+            <div class="country">United Kingdom</div>
+            <div class="country">United States</div>
+        </div>
+    </div>
+        
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Uber <b>Eats</b></h2>
+                <div class="app-links">
+                    <img src="img/applestore.svg" alt="App Store">
+                    <img src="img/playstore.png" alt="Google Play">
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <div>
+                        <p>Get Help</p>
+                        <p>Buy gift cards</p>
+                        <p>Add your restaurant</p>
+                        <p>Sign up to deliver</p>
+                        <p>Create a business account</p>
+                        <p>Promotions</p>
+                    </div>
+                    <div>
+                        <p>Restaurants near me</p>
+                        <p>View all cities</p>
+                        <p>View all countries</p>
+                        <p>Pickup near me</p>
+                        <p>About Uber Eats</p>
+                        <p>Shop groceries</p>
+                        <p><svg aria-label="Select a language" role="img" focusable="false" viewBox="0 0 16 15" class="hg ee g8 hh"><path d="M12.267 6.667H9.733l-.933 2.2c-.467-.2-1-.534-1.533-.934.866-.866 1.6-2 2-3.266h1.4v-2h-4v-2h-2v2h-4v2h1.466c.4 1.266 1.134 2.4 1.934 3.266-1.4.934-2.734 1.467-2.734 1.467v2.133L2 11.267c.133-.067 1.867-.667 3.667-2 .8.6 1.666 1.066 2.333 1.4l-1.8 4h2.2l.867-2h3.466l.867 2h2.2zm-5.2-2a6.79 6.79 0 01-1.4 2c-.534-.6-1.067-1.267-1.4-2zm3.066 6L11 8.733l.867 1.934z"></path></svg> English</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="footer-policy">
+                <p id="policy_terms">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>  
+                    <a href="#">Pricing</a> 
+                    <a href="#" id="term">Do not sell or share my personal information</a>
+                </p>
+                <p class="recaptcha-text">
+                    This site is protected by reCAPTCHA and the 
+                    <a href="#">Google Privacy Policy</a> and 
+                    <a href="#">Terms of Service</a> apply.
+                </p>
+                <p>&copy; 2025 Uber Eats India</p>
+            </div>
+            
+    </footer>
+    
+
+    
+</body>
+</html>

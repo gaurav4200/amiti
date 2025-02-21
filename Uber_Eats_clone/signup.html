@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Uber <strong>Eats</strong></h2>
+        <p>What's your phone number or email?</p>
+        <input type="text" id="userInput" placeholder="Enter phone number or email">
+        <p id="errorMsg" class="error"></p>
+        <button class="btn" onclick="continueSignup()">Continue</button>
+        <p>or</p>
+        <button class="option-btn" onclick="googleSignup()">
+            <img class="google_img" src="img/google_icon.png" alt="Google">
+            Continue with Google
+        </button>
+        <button class="option-btn" onclick="appleSignup()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple">
+            Continue with Apple
+        </button>
+        <button class="option-btn" onclick="qrLogin()">
+            Log in with QR code
+        </button>
+    </div>
+    <script src="signup.js">
+        
+    </script>
+</body>
+</html>
