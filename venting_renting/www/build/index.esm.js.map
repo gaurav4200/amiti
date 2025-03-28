@@ -1,0 +1,1 @@
+{"file":"index.esm.js","mappings":";;;MAIa,MAAM,GAAG,YAAY;;;;","names":[],"sources":["src/index.ts"],"sourcesContent":["import { createRouter } from 'stencil-router-v2';\n\nexport { Components, JSX } from './components';\n\nexport const Router = createRouter();\n"],"version":3}
